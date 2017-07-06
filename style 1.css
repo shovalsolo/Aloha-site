@@ -1,10 +1,8 @@
-
 body {
-	background: #white;
+	background: white;
 }
 
-header{
-	display:flex;
+.header{
 	justify-content:space-between;
 }
 
@@ -15,13 +13,14 @@ header{
 
 .nav1{
 	/*display: flex;
-	justify-content:flex-end;*/
-	align-items: center;
+	justify-content:flex-end;
+	align-items: center;*/
 }
 
 .nav1 ul{
 	display: flex;
-	
+	justify-content:center;
+	align-items:center;
 }
 
 .nav1 li{
@@ -48,15 +47,13 @@ header{
 }
 
 .banner {
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url("C:/Programing/Web dev course/images/banner-girl.png") , url("C:/Programing/Web dev course/images/flower-bkgd.jpg");
+    background-image: url("images/banner-girl.png") , url("images/flower-bkgd.jpg");
     background-size: 20%, 100%;
     background-position: bottom, center;
     background-repeat: no-repeat, no-repeat;
-    width: 100%;
     height: 50vw;
     color: white;
 }
@@ -67,7 +64,7 @@ header{
 }
 
 .parent{
-	display: flex;
+	
 	align-items: center;
 	flex-direction: row;
 	background-color: white;
@@ -86,10 +83,13 @@ header{
 }
 
 .final{
-	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+	text-align:center;
 	color:white;
-	background-image: url("C:/Programing/Web dev course/images/wave-bkgd.jpg");
+	background-image: url("images/wave-bkgd.jpg");
+	background-position: bottom, center;
 	height: 400px;
 }
 
@@ -112,4 +112,8 @@ input{
 	-webkit-border-radius:50px;
 	width: 50%;
 	height: 20px;
+}
+
+.footer{
+	justify-content:space-between;
 }
