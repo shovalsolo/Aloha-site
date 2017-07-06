@@ -1,0 +1,115 @@
+
+body {
+	background: #white;
+}
+
+header{
+	display:flex;
+	justify-content:space-between;
+}
+
+.aloha{
+	height: 100px;
+	width: 150px;
+}
+
+.nav1{
+	/*display: flex;
+	justify-content:flex-end;*/
+	align-items: center;
+}
+
+.nav1 ul{
+	display: flex;
+	
+}
+
+.nav1 li{
+	padding-right:  10px;
+}
+
+.nav1 a{
+	text-decoration: none;
+
+}
+
+.nav1 a:hover {
+	color: #cc0000;
+	font-weight: bold;
+	text-decoration: none;
+	background-color:yellow;
+	border: 1px solid;
+    border-radius: 5px;
+}
+
+.icon{
+	height: 80px;
+	width: 80px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("C:/Programing/Web dev course/images/banner-girl.png") , url("C:/Programing/Web dev course/images/flower-bkgd.jpg");
+    background-size: 20%, 100%;
+    background-position: bottom, center;
+    background-repeat: no-repeat, no-repeat;
+    width: 100%;
+    height: 50vw;
+    color: white;
+}
+
+.cta{
+	background-color: white;
+	text-align: center;
+}
+
+.parent{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	background-color: white;
+	text-align: center;
+
+}
+
+.product{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.disc{
+	color: red;
+	font-size: 25px;
+}
+
+.final{
+	display: flex;
+	flex-direction: row;
+	color:white;
+	background-image: url("C:/Programing/Web dev course/images/wave-bkgd.jpg");
+	height: 400px;
+}
+
+
+
+
+input{
+	background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+    width: 160px;
+    color: #CCC;
+	
+}
+
+
+.subscribe{
+
+	background-color:white; 
+	-webkit-border-radius:50px;
+	width: 50%;
+	height: 20px;
+}
