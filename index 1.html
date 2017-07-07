@@ -8,87 +8,115 @@
 
     <link rel="stylesheet" type="text/css" href="reset.css"/>
 
-     <link rel="stylesheet" type="text/css" href="grid.css"/>
+    <link rel="stylesheet" type="text/css" href="grid.css"/>
+
+    <link rel="stylesheet" type="text/css" href="color.css"/>
+
+    <link rel="stylesheet" type="text/css" href="text.css"/>
+
+    <link rel="stylesheet" type="text/css" href="font.css"/>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+
 
 </head>
 <body>
-	<header class="header flex"> <!--Header of the site-->
+	<header class="header flex flex-ali-cen"> <!--Header of the site-->
 		<img class="aloha" src="images\aloha-logo.svg">
-        <nav class="nav1 flex">
+        <nav class="nav1 flex flex-ali-cen">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
-                
             </ul>
-            <img class="icon" src="images\cart-icon.svg">
         </nav>
+        <img class="cart" src="images\cart-icon.svg">
 	</header>
-    <section class="banner flex">
-        <p><strong>NEW</strong> COLLECTION</p>
-        <h1>Spring Summer 2016</h1>
+    <section class="banner flex wcolor">
+        <p><span class="heading">NEW COLLECTION</span></p><br>
+        <h1><span class="summer">Spring / Summer 2016</span></h1>
     </section>
 
     <main>
-        <section class="cta"> <!--The CTA area -->
-            <h2>Hand-Crafted Styles</h2>
-            <p>Aloha apparel Co sells only the finest ready-to-travel clothing.browse our<br>current selection of products or sign-up for updates below.</p>
+        <section class="cta bgcw ali-c mtopbottom"> <!--The CTA area -->
+            <h2><span class="ita">Hand-Crafted</span><span class="font-we"> Styles</span></h2>
+            <p class="info">Aloha apparel Co sells only the finest ready-to-travel clothing.browse our<br>current selection of products or sign-up for updates below.</p>
         </section>
         <hr>
         <!--The product area -->
-        <section class="product"> 
-            <p>Most-loved <strong>Products</strong></p>
-                <div class="parent flex"> 
-                    <div class="child1"><img src="images\stretch-knit-dress.jpg">
+        <section class="product ali-c"> 
+            <h2><span class="ita">Most-loved </span><span class="font-we">Products</span></h2>
+                <div class="parent flex bgcw ali-c"> 
+                    <div class="child"><img src="images\stretch-knit-dress.jpg">
                     <p>DRESSES</p>
-                    <p class="disc">Stretch Knit Dress</p>
+                    <p class="disc rcolor">Stretch Knit Dress</p>
                     <p>$169.00</p>
                     </div>
-                    <div class="child2"><img src="images\cotton-blue-shirt.jpg">
+                    <div class="child"><img src="images\cotton-blue-shirt.jpg">
                     <p>SHIRTS</p>
-                    <p class="disc">Cotton Blue Shirt</p>
+                    <p class="disc rcolor">Cotton Blue Shirt</p>
                     <p>$89.00</p>
                     </div>
-                    <div class="child3"><img src="images\checked-stretch-dress.jpg">
+                    <div class="child"><img src="images\checked-stretch-dress.jpg">
                     <p>DRESSES</p>
-                    <p class="disc">Checked Stretch Dress</p>
+                    <p class="disc rcolor">Checked Stretch Dress</p>
                     <p>$129.00</p>
                     </div>
-                    <div class="child4"><img src="images\blue-hipster-backpack.jpg">
+                    <div class="child"><img src="images\blue-hipster-backpack.jpg">
                     <p>BAGS</p>
-                    <p class="disc">Blue Hipster Dress</p>
+                    <p class="disc rcolor">Blue Hipster Dress</p>
                     <p>$69.00</p>
                     </div>
                 </div>
         </section>
-        <section class="final flex">
-                <h3>Sign-up for <strong>Updates</strong></h3>
-                <p>Stay updated on our latest products, be first to find out about upcoming<br> sales, and get free style tips from our blog.Unsubscribe at any time.</p>
-                <div class="subscribe">
+        <section class="final flex wcolor">
+                <h2><span class="ita">Sign-up for </span><span class="font-we">Updates</span></h2><br>
+                <p class="info">Stay updated on our latest products, be first to find out about upcoming<br><br> sales, and get free style tips from our blog.Unsubscribe at any time.</p><br>
+                <div class="subscribe bgcw">
                     <form>
-                        <input class="subfiled" type="text" name="subscribe" value="Subscribe">
-                        <input class="subbut" type="submit" name="submit" value="submit">
+                        <input class="subfiled" type="text" name="subscribe" value="   Your Email">
+                        <input class="subbtn bgcr" type="submit" name="subbtn" value="Subscribe">
                     </form>
                 </div>
         </section>
 
     </main>
     
-    <footer class="footer flex"> <!--The footer area of the site-->
-    <div class="contact">
-        <p>2016 Aloha Apparel Co.</p>
-        <p>Powerd by HTML and CSS.</p><br>
-        <p>604-604-6040. info@alohaappael.com</p><br>
-        <p>2016 Aloha Apparel Co.</p>
-        <p>1490 W Broadway</p>
-        <p>Vancouver, BC, Vanada</p>
+    <footer class="footer flex wcolor mtopbottom"> <!--The footer area of the site-->
+    <div class="contact tex-deco">
+    <ul>
+        <li>2016 Aloha Apparel Co.</li>
+        <li>Powerd by HTML and CSS.</li><br>
+        <li>604-604-6040.info@alohaappael.com</li><br>
+        <li class="gcolor">1490 W Broadway</li>
+        <li class="gcolor">Vancouver, BC, Vanada</li>
+    </ul>
     </div>	
-    <div class="media">
-        <p>Facebook</p>
-        <p>Twitter</p><br>
-        <p>Instagram</p><br>
-        <p>Pinterest</p>
-        <p>Google+</p>
+    <div class="media tex-deco">
+    <ul class="list">
+        <li class="flex">
+            <div class="icon"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+            <div class="social">Facebook</div>
+        </li>
+        <li class="flex">
+            <div class="icon"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+            <div class="social">Twitter</div>
+        </li>
+        <li class="flex">
+            <div class="icon"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+            <div class="social">Instagram</div>
+        </li>
+        <li class="flex">
+            <div class="icon"><i class="fa fa-pinterest" aria-hidden="true"></i></div>
+            <div class="social">Pinterest</div>
+        </li>
+        <li class="flex">
+        <div class="icon"><i class="fa fa-google-plus" aria-hidden="true"></i></div>
+        <div class="social">Google+</div>
+        </li>
+    </ul>
     </div>
     </footer>
 

@@ -1,5 +1,5 @@
 body {
-	background: white;
+	background-color: white;
 }
 
 .header{
@@ -19,8 +19,6 @@ body {
 
 .nav1 ul{
 	display: flex;
-	justify-content:center;
-	align-items:center;
 }
 
 .nav1 li{
@@ -29,19 +27,15 @@ body {
 
 .nav1 a{
 	text-decoration: none;
-
 }
 
-.nav1 a:hover {
-	color: #cc0000;
+a:hover {
+	color: #339999;
 	font-weight: bold;
 	text-decoration: none;
-	background-color:yellow;
-	border: 1px solid;
-    border-radius: 5px;
 }
 
-.icon{
+.cart{
 	height: 80px;
 	width: 80px;
 }
@@ -55,30 +49,30 @@ body {
     background-position: bottom, center;
     background-repeat: no-repeat, no-repeat;
     height: 50vw;
-    color: white;
 }
 
-.cta{
-	background-color: white;
-	text-align: center;
+.heading{
+	font-family: 'Playfair Display', serif;
 }
 
 .parent{
-	
 	align-items: center;
 	flex-direction: row;
-	background-color: white;
-	text-align: center;
+}
 
+.child{
+	width:25%;
+}
+
+.child img{
+	max-width:100%;
 }
 
 .product{
-	text-align: center;
 	padding-top: 20px;
 }
 
 .disc{
-	color: red;
 	font-size: 25px;
 }
 
@@ -87,33 +81,47 @@ body {
 	justify-content: center;
     align-items: center;
 	text-align:center;
-	color:white;
 	background-image: url("images/wave-bkgd.jpg");
 	background-position: bottom, center;
 	height: 400px;
 }
 
-
-
+.subbtn{
+	-webkit-border-radius:80px;
+}
 
 input{
 	background-color: transparent;
+	outline-width: 0;
     border: 0px solid;
     height: 20px;
     width: 160px;
     color: #CCC;
-	
 }
 
-
 .subscribe{
-
-	background-color:white; 
 	-webkit-border-radius:50px;
-	width: 50%;
-	height: 20px;
+}
+
+.list{
+	display: flex;
+	flex-direction:column;
+	align-content:center;
+}
+
+.icon{
+	width: 30%;
+}
+
+.social {
+	width: 5rem;
+}
+
+.social a{
+	text-decoration:none;
 }
 
 .footer{
+	background-color: #2B1B17;
 	justify-content:space-between;
 }

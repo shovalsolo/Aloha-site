@@ -14,3 +14,15 @@
 .flex-row{
 	flex-direction: row;
 }
+
+.flex-bet-space{
+	justify-content:space-between;
+}
+
+.flex-aro-space{
+	justify-content:space-around;
+}
+
+.flex-ali-cen{
+	align-items:center;
+}
