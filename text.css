@@ -1,4 +1,4 @@
-.ali-c{
+.tex-ali-c{
 	text-align: center;
 }
 
@@ -6,12 +6,26 @@
 	text-decoration: none;
 }
 
-.info{
-	margin: 1rem;
-	padding: 1rem;
+.tex-deco-un{
+	text-decoration: underline;
 }
 
-.mtopbottom{
-	margin-top: 20px;
-	margin-bottom: 20px;
+.info{
+	padding: 0.5rem;
+}
+
+.padtopbottom{
+	padding: 2em 2em 2em 2em;
+}
+
+.pad-sml{
+	padding: 1em;
+}
+
+.bor-radius{
+	-webkit-border-radius:50px;
+}
+
+.tex-shadow{
+	text-shadow: 2px 2px gray;
 }
