@@ -1,1 +1,4 @@
-__MACOSX/
+/__MACOSX/
+/__MACOSX/*
+font-awesome.css
+font-awesome.min
