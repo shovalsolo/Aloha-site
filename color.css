@@ -1,3 +1,5 @@
+/*-----------------background-color---------------------*/
+
 .bgcw{
 	background-color: white;
 }
@@ -10,6 +12,7 @@
 	background-color: red;
 }
 
+/*-----------------color---------------------*/
 .wcolor{
 	color: white;
 }
@@ -20,4 +23,8 @@
 
 .gcolor{
 	color:gray;
+}
+
+.product-color{
+	color: #333;
 }
